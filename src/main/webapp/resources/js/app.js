@@ -6,7 +6,6 @@ var App = angular.module('AngularSpringApp', ['AngularSpringApp.filters', 'Angul
 
 function MyCtrl($scope) {
     $scope.codes = [
-        { id: 1, name: '100 Continue' },
         { id: 2, name: '101 Switching Protocols' },
         { id: 3, name: '102 Processing' },
         {id: 3, name: '200 OK'},

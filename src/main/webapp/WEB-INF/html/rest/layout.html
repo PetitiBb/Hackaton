@@ -2,23 +2,23 @@
     <div class="row-fluid">
         <form class="form-horizontal" ng-submit="addInfo(rest)">
             <legend>Generate</legend>
-            <div class="form-group" ng-model="rest.code">
+            <div class="form-group">
                 <label for="s1">Status code</label>
-                <select id="s1" ng-model="code"ng-options="code as code.name for code in codes"></select>
+                <select id="s1" ng-model="rest.code" ng-options="code as code.name for code in codes"></select>
             </div>
-            <div class="form-group" ng-model="rest.verb">
+            <div class="form-group">
                 <label for="s2">Verbs</label>
-                <select id="s2" ng-model="verb"ng-options="verb as verb.name for verb in verbs"></select>
+                <select id="s2" ng-model="rest.verb" ng-options="verb as verb.name for verb in verbs"></select>
             </div>
-            <div class="form-group" ng-model="rest.content">
+            <div class="form-group">
                 <label for="s3">Content Type</label>
-                <select id="s3" ng-model="content"ng-options="content as content.name for content in contents"></select>
+                <select id="s3" ng-model="rest.content" ng-options="content as content.name for content in contents"></select>
             </div>
-            <div class="form-group" ng-model="rest.body">
+            <div class="form-group">
                 <label for="div1">Body</label>
                 <div id="div1">
                         <section>
-                            <div ui-ace >Wow this works ~ Ace editor Rocks</div>
+                            <div ng-model="rest.body" ui-ace >Wow this works ~ Ace editor Rocks</div>
                         </section>
                 </div> <!-- /.demo-row -->
             </div>
