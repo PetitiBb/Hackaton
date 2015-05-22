@@ -1,0 +1,13 @@
+/* app css stylesheet */
+
+#wrapper {
+    margin: 0 auto;
+    width: 650px;
+    margin-top: 50px;
+}
+.container{
+
+}
+.ace_editor  {
+    height : 200px;
+}
