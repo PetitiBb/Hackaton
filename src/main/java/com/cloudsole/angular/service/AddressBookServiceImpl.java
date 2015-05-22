@@ -1,29 +1,26 @@
 package com.cloudsole.angular.service;
 
-import com.cloudsole.angular.model.AddressBook;
+import com.cloudsole.angular.model.ResponseModel;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by tmichels on 8/3/14.
- */
 @Service
 public class AddressBookServiceImpl implements AddressBookService {
 
-    List<AddressBook> addressBooks = new ArrayList<AddressBook>();
+    List<ResponseModel> addressBooks = new ArrayList<ResponseModel>();
     private static Long id = 0L;
 
     @PostConstruct
     public void setupAddressBook(){
-        AddressBook addressBook1 = new AddressBook();
+        ResponseModel addressBook1 = new ResponseModel();
         addressBook1.setEmail("test@mail.com");
         addressBook1.setFirstName("John");
         addressBook1.setLastName("Doe");
         addressBook1.setPhone("12345678");
-        AddressBook addressBook2 = new AddressBook();
+        ResponseModel addressBook2 = new ResponseModel();
         addressBook2.setFirstName("George");
         addressBook2.setLastName("Lucas");
         addressBook2.setPhone("0099332244");
@@ -33,12 +30,12 @@ public class AddressBookServiceImpl implements AddressBookService {
     }
 
     @Override
-    public List<AddressBook> viewAllAddressBook() {
+    public List<ResponseModel> viewAllAddressBook() {
         return addressBooks;
     }
 
     @Override
-    public void createAddressBook(AddressBook addressBook) {
+    public void createAddressBook(ResponseModel addressBook) {
         if (!addressBooks.contains(addressBook)){
             addressBook.setId(id);
             addressBooks.add(addressBook);
@@ -47,7 +44,7 @@ public class AddressBookServiceImpl implements AddressBookService {
     }
 
     @Override
-    public void updateAddressBook(int pos, AddressBook updateAddressBook) {
+    public void updateAddressBook(int pos, ResponseModel updateAddressBook) {
         addressBooks.set(pos, updateAddressBook);
     }
 
@@ -63,7 +60,7 @@ public class AddressBookServiceImpl implements AddressBookService {
     }
 
     @Override
-    public AddressBook findAddressBook(int id) {
+    public ResponseModel findAddressBook(int id) {
         return addressBooks.get(id);
     }
 }

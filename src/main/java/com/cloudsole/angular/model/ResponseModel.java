@@ -1,8 +1,7 @@
 package com.cloudsole.angular.model;
 
 
-public class AddressBook {
-
+public class ResponseModel {
     private long id;
     private String firstName;
     private String lastName;

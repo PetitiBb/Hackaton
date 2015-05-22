@@ -25,7 +25,57 @@
     <favorites_list name="CloudSoleAngular" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/RestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2093596" vertical-offset="102" max-vertical-offset="544">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoapController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/SoapController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressBookServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/service/AddressBookServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#359#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressBookService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/service/AddressBookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,11 +99,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/home/layout.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/EditorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/SoapController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/RestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/model/AddressBook.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/soap/layout.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/SoapController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/model/ResponseModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/service/AddressBookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/service/AddressBookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/RestController.java" />
       </list>
     </option>
   </component>
@@ -76,8 +130,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="1378" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -142,70 +197,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudSoleAngular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudSoleAngular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -788,16 +779,16 @@
       <option name="number" value="Default" />
       <updated>1432284289933</updated>
       <workItem from="1432284294471" duration="19800000" />
-      <workItem from="1432306940208" duration="9522000" />
+      <workItem from="1432306940208" duration="12884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29322000" />
+    <option name="totallyTimeSpent" value="32684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1378" height="744" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -817,12 +808,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17007874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27244094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24155654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2408492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28031495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4503937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -848,7 +839,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,14 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.3506494" vertical-offset="27956" max-vertical-offset="36499">
           <caret line="1760" column="25" selection-start-line="1760" selection-start-column="25" selection-end-line="1760" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54111403" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,46 +954,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ace.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1615">
           <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/rest/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5682451" vertical-offset="0" max-vertical-offset="425">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,109 +970,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/soap/layout.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24566475" vertical-offset="0" max-vertical-offset="1292">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/home/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="272">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state vertical-scroll-proportion="-2.0439188" vertical-offset="809" max-vertical-offset="1105">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.908078" vertical-offset="439" max-vertical-offset="1020">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8655914" vertical-offset="290" max-vertical-offset="833">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/controllers/RestController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6181818" vertical-offset="0" max-vertical-offset="385">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.33415234" vertical-offset="0" max-vertical-offset="646">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webapp-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20913884" vertical-offset="0" max-vertical-offset="569">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49853373" vertical-offset="51" max-vertical-offset="493">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/SoapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6729323" vertical-offset="178" max-vertical-offset="646">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/RestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7030075" vertical-offset="0" max-vertical-offset="544">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="306">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12781955" vertical-offset="0" max-vertical-offset="306">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,26 +1002,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/model/AddressBook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/controllers/RestController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="629">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="340">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5198777" vertical-offset="510" max-vertical-offset="21029">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/service/AddressBookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#374#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/service/AddressBookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78532606" vertical-offset="0" max-vertical-offset="391">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7915691" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/soap/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/rest/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63700235" vertical-offset="0" max-vertical-offset="427">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/home/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35831383" vertical-offset="0" max-vertical-offset="427">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57954544" vertical-offset="357" max-vertical-offset="833">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="518">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/model/ResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71302426" vertical-offset="0" max-vertical-offset="952">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#225#226#0" expanded="false" />
+            <element signature="e#250#251#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/SoapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloudsole/angular/controller/RestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2093596" vertical-offset="102" max-vertical-offset="544">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
