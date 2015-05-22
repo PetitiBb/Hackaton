@@ -26,18 +26,18 @@ function MyCtrl($scope) {
         // Declare app level module which depends on filters, and service
 App.config(['$routeProvider', function ($routeProvider) {
 
-    $routeProvider.when('/todo', {
-        templateUrl: 'todo/layout'
+    $routeProvider.when('/home', {
+        templateUrl: 'home/layout'
     });
-    $routeProvider.when('/address', {
-        templateUrl: 'address/layout',
+    $routeProvider.when('/rest', {
+        templateUrl: 'rest/layout',
         controller: RestController
     });
-    $routeProvider.when('/editor', {
-        templateUrl: 'editor/layout',
+    $routeProvider.when('/soap', {
+        templateUrl: 'soap/layout',
         controller: SoapController
     });
 
 
-    $routeProvider.otherwise({redirectTo: '/todo'});
+    $routeProvider.otherwise({redirectTo: '/home'});
 }]);

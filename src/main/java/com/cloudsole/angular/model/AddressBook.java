@@ -1,8 +1,6 @@
 package com.cloudsole.angular.model;
 
-/**
- * Created by tmichels on 8/3/14.
- */
+
 public class AddressBook {
 
     private long id;

@@ -1,0 +1,36 @@
+<div class="container" ng-controller="MyCtrl">
+    <div class="row-fluid">
+        <form class="form-horizontal" ng-submit="addInfo(rest)">
+            <legend>Generate</legend>
+            <div class="form-group" ng-model="rest.code">
+                <label for="s1">Status code</label>
+                <select id="s1" ng-model="code"ng-options="code as code.name for code in codes"></select>
+            </div>
+            <div class="form-group" ng-model="rest.verb">
+                <label for="s2">Verbs</label>
+                <select id="s2" ng-model="verb"ng-options="verb as verb.name for verb in verbs"></select>
+            </div>
+            <div class="form-group" ng-model="rest.content">
+                <label for="s3">Content Type</label>
+                <select id="s3" ng-model="content"ng-options="content as content.name for content in contents"></select>
+            </div>
+            <div class="form-group" ng-model="rest.body">
+                <label for="div1">Body</label>
+                <div id="div1">
+                        <section>
+                            <div ui-ace >Wow this works ~ Ace editor Rocks</div>
+                        </section>
+                </div> <!-- /.demo-row -->
+            </div>
+            <div class="form-group">
+                <button class="btn button-primary" ng-click="addInfo(rest)">Send HTTP request</button>
+            </div>
+        </form>
+    </div>
+</div><!-- /.container -->
+
+<style type="text/css">
+    .ace_editor  {
+        height : 200px;
+    }
+</style>
