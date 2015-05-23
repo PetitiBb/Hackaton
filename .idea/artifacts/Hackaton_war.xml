@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Hackaton:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="HackathonMockingTool.war">
+    <root id="archive" name="CloudSoleAngular.war">
       <element id="artifact" artifact-name="Hackaton:war exploded" />
     </root>
   </artifact>
